@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    font-size: 26px;
+    font-weight: 700;
+
+    padding: 0 0 15px 0;
+}
+
+.container {
+    width: 400px;
+    height: 200px;
+
+    font: 1em "Montserrat", sans-serif;
+    font-weight: 500;
+    
+    background-image: url(../assets/background.png);
+    background-size: cover;
+
+    padding: 1px 20px;
+    margin: auto;
+    margin-top: 10%;
+}
+
+a {
+    text-decoration: none; 
+    color: #323232;       
+}
+
+a:visited {
+    text-decoration: none;
+    color: #323232;
+}
+
+li a {
+    vertical-align: super;
+}
+
+.instagram {
+    list-style: url(../assets/Insta.png);
+}
+
+.twitter {
+    list-style: url(../assets/Twitter.png);
+}
+
+.youtube {
+    list-style: url(../assets/Youtube.png);
+}
