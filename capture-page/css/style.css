@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 18px Montserrat, sans-serif;
+    background-color: black;
+}
+
+header {
+    background-color: #48aaff;
+    color: white;
+
+    text-align: center;
+    padding: 8px;
+    width: 100%;
+}
+
+section {
+    font: 500 1rem Montserrat, sans-serif;
+    background-image: url(../assets/images/people.jpg);
+    background-size: cover;
+    overflow: hidden;
+
+    padding: 20px;
+}
+
+h2 {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-size: 1.15rem;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+input, select {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    padding: 10px;
+    margin-bottom: 6px
+}
+
+input[type="submit"] {
+    color: white;
+    background-color: #48aaff;
+    font: 700 .9rem Montserrat, sans-serif;
+}
+
+input[type="submit"]:hover {
+    background-color: #4888bb;
+    transition: .1s;
+}
+
+select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+
+    background-image: url(../assets/images/arrow.jpg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center;
+}
+
+h3 {
+    color: white;
+}
+
+footer {
+    background-color: #222222;
+    padding: 40px;
+    text-align: center;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.title {
+    font: 700 1.7rem Montserrat, sans-serif;
+}
+
+.formContainer {
+    background-color: #ddddddbb;
+    
+    max-width: 240px;    
+    padding: 15px;
+    float: right;
+}
+
+.about {
+    width: 160px;
+}
+
+.description {
+    color: white;
+    display: inline-block;
+    max-width: 40%;
+    margin-left: 30px;
+    text-align: left;
+}
+
+.description p, .description h3 {
+    margin-bottom: 15px;
+}
