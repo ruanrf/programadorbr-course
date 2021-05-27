@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 18px Lobster;
+
+    background-image: url(../assets/images/background_alt.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+header {
+    background-color: #0f0f1288;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 6vh;
+}
+
+header h1 {
+    margin: 0;
+    padding: 3px;
+    
+    font-size: 3rem;
+    color: #CD996B;
+}
+
+main {
+    margin: 15vh 0 15vh 0;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+    max-width: 400px;
+    background-color: #c38F6Dbb;
+    margin: 0 0 0 220px;
+    padding: 15px;
+    border-radius: 6px;
+
+    text-align: center;
+}
+
+main h1 {
+    font: 2.4rem Lobster;
+    
+    text-align: center;
+    margin: 5px 0 25px 0;
+}
+
+input {
+    display: block;
+    box-sizing: border-box;
+
+    width: 100%;
+    padding: 12px;
+    margin: 0 0 25px 0;
+
+    border: none;   
+    border-radius: 2px; 
+    
+    font-size: 16px;
+    font-family: Montserrat;
+}
+
+button {
+    display: inline-block;
+
+    width: 47.2%;
+    padding: 12px;
+    margin: 0 0 25px 0;
+
+    border: none;   
+    border-radius: 2px; 
+    
+    font-size: 16px;
+    font-family: Montserrat;
+}
+
+button[name="submit"], button[name="reset"] {
+    font-size: 16px;
+    font-family: Montserrat;
+
+    width: 47%;
+    display: inline-block;
+
+    margin: 15px 0 10px 0;
+}  
+
+#calcular {
+    background-color: #88E135bb;
+    margin: 0 4.5% 0 0;
+}
+
+#calcular:hover {
+    transition: 300ms;
+    background-color: #66AA28;
+}
+
+#reset {
+    background-color: #ff2222bb;
+}
+
+#reset:hover {
+    transition: 300ms;
+    background-color: #D71C1C;
+}
+
+footer {
+    background-color: #0f0f12ee;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 4vh;
+}
+
+footer p {
+    font-size: 1.6rem;
+    color: #dedede;
+
+    margin: 0;
+    padding: 3px;
+    
+    vertical-align: middle;
+}
+
+footer img {
+    width: 24px;
+    padding: 0 0 3px 0;
+    margin: 0 6px 0 40px;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    color: #79B8FF;
+}
+
+/* Remove arrows from input when == number */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

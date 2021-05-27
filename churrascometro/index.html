@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Import Montserrat -->
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Import Lobster -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script src></script>
+    
+    <title>🍖 Churrascômetro 🍖</title>
+</head>
+<body>
+
+    <header>
+        <h1>
+            Churrascômetro
+        </h1>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>Calcule o consumo para o seu churrasco</h1>
+            <input type="number" name="adultos" id="adultos" placeholder="adultos">
+            <input type="number" name="criancas" id="criancas" placeholder="crianças">
+            <input type="number" name="duracao" id="duracao" placeholder="duração (horas)">
+            <button type="button" name="calcular" id="calcular" onclick="calcular()">calcular</button>
+            <button type="button" name="reset" id="reset" onclick="reset()">recomeçar</button>
+                
+            <div id="calculo">
+                    
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>
+            Developed by 
+            <a href="https://github.com/ruanrf">
+                <img src="./assets/images/GitHub-Mark-Light-32px.png">
+                Ruan F.
+            </a>
+        </p>
+    </footer>
+            
+    <script src="./scripts/script.js" />
+    
+</body>
+</html>
